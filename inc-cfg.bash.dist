@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Please use basolute path here or volume backup will failed
+#Please use absolute path here or volume backup will failed
 backup_path="/mypath/backup/docker/"
 
 tar_opts="--exclude='/var/run/*'"
